@@ -1,0 +1,109 @@
+body{
+	background-color: #fff;
+}
+.row{
+	margin-bottom: 0px;
+	padding:0px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+@media #{$medium-and-up} {
+  .container {
+    max-width: 1108px;
+    width:90%;
+
+  }
+}
+@media #{$large-and-up} {
+  .container {
+    max-width: 1280px;
+
+  }
+}
+
+
+.brand-logo{
+	height:100%;
+	img{
+		vertical-align:middle;
+		max-height:45px;
+		@media #{$large-and-up} {
+			width:45%;
+		}
+	}
+}
+
+
+.btn-flush{
+	width:100%;
+}
+.row{
+	margin-left: 0rem !important;
+    margin-right: 0rem !important;
+}
+
+.generic-cover{
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+footer{
+	background-color: $primary-color;
+}
+.primary-color{
+	background-color: $primary-color;
+}
+.secondary-color{
+	background-color: $secondary-color;
+}
+.primary-color-light{
+	background-color: $primary-color-light;
+}
+.primary-color-dark{
+	background-color: $primary-color-dark;
+}
+
+iframe[name=google_conversion_frame]{
+	display:none;
+}
+
+
+
+.no-fluff{
+  margin:0;
+  padding:0;
+}
+
+ img {
+    max-width: 100%;
+}
+
+.btn-large{
+	font-size:1.3em;
+}
+
+.classic-list{
+  margin-left:40px;
+  li{
+    list-style-type: disc !important;
+  }
+}
+
+.btn{
+	border-radius: .3em;
+	&.btn-line{
+		border: 1px solid color('purple','base');
+		background-color: #fff;
+		box-shadow: none;
+		color: color('purple','base');
+		&:hover{
+			background-color: color('purple','base');
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,254 @@
+
+.round-group{
+	.input-field{
+		margin-top:0;
+		height:3.5em;
+		input{
+			margin-bottom:0px;
+			border-bottom:0 solid;
+		}
+		&:focus{
+			border-bottom: 0px solid #26a69a;
+			box-shadow: 0 0 0 0 #26a69a;
+		}
+		.prefix{
+			display: flex;
+			align-items: center;
+			height:100%;
+			margin-left: 8px;
+		}
+		input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+			border-bottom: 0px solid #26a69a;
+			box-shadow: 0 0px 0 0 #26a69a;
+		}
+		input:not([type]).valid, input:not([type]):focus.valid, input[type=text]:not(.browser-default).valid, input[type=text]:not(.browser-default):focus.valid, input[type=password]:not(.browser-default).valid, input[type=password]:not(.browser-default):focus.valid, input[type=email]:not(.browser-default).valid, input[type=email]:not(.browser-default):focus.valid, input[type=url]:not(.browser-default).valid, input[type=url]:not(.browser-default):focus.valid, input[type=time]:not(.browser-default).valid, input[type=time]:not(.browser-default):focus.valid, input[type=date]:not(.browser-default).valid, input[type=date]:not(.browser-default):focus.valid, input[type=datetime]:not(.browser-default).valid, input[type=datetime]:not(.browser-default):focus.valid, input[type=datetime-local]:not(.browser-default).valid, input[type=datetime-local]:not(.browser-default):focus.valid, input[type=tel]:not(.browser-default).valid, input[type=tel]:not(.browser-default):focus.valid, input[type=number]:not(.browser-default).valid, input[type=number]:not(.browser-default):focus.valid, input[type=search]:not(.browser-default).valid, input[type=search]:not(.browser-default):focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid{
+			border-bottom: 0px solid #26a69a;
+			box-shadow: 0 0px 0 0 #26a69a;
+		}
+		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+			height:3.5em;
+		}
+		&:first-child{
+			border-top-right-radius: .3em;
+			border-bottom-right-radius: .3em;
+			border-top-left-radius: .3em;
+			border-bottom-left-radius: .3em;
+			@media #{$medium-and-up}{
+				border-top-left-radius: .3em;
+				border-bottom-left-radius: .3em;
+				border-top-right-radius: 0em;
+				border-bottom-right-radius: 0em;
+			}
+			input{
+				//border-bottom: 1px solid #cecece;
+				@media only screen and (min-width: $medium-screen) {
+					border-right: 1px solid #cecece !important;
+					border-bottom: 0 solid !important;
+				}
+			}
+		}
+		&:nth-child(2){
+			border-top-right-radius: .3em;
+			border-bottom-right-radius: .3em;
+			border-top-left-radius: .3em;
+			border-bottom-left-radius: .3em;
+			@media #{$medium-and-up}{
+				border-top-right-radius: .3em;
+				border-bottom-right-radius: .3em;
+				border-top-left-radius: 0em;
+				border-bottom-left-radius: 0em;
+			}
+		}
+		&:last-child{
+			&.col{
+				//padding:0 !important;
+				.btn{
+					border-radius: .3em;
+					height: 3.5rem;
+					line-height:3.5rem;
+					background-image: linear-gradient(-90deg, #FF0050 8%, #FF3D6A 100%);
+					box-shadow: 0 2px 8px 0 rgba(0,0,0,0.50);
+					//margin-top:10px;
+					@media only screen and (min-width: $medium-screen) {
+						margin-top:0;
+					}
+				}
+			}
+		}
+		&.input-field-large{
+			input{
+				height:60px;
+			}
+			a{
+				height:60px !important;	
+				line-height:60px !important;	
+				font-size:1.4em;
+			}
+		}
+		&.input-field-medium{
+			input{
+				height:50px;
+			}
+			a{
+				height:50px !important;	
+				line-height:50px !important;	
+				font-size:1.4em;
+			}
+		}
+	}
+}
+.round-group-small {
+    .input-field {
+        margin-top: 0;
+		height: 2.8em;
+		line-height: 2.8em;
+        input {
+            margin-bottom: 0px;
+            border-bottom: 0 solid;
+        }
+        &:focus {
+            border-bottom: 0px solid #26a69a;
+            box-shadow: 0 0 0 0 #26a69a;
+        }
+        .prefix {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin-left: 8px;
+        }
+        input:not([type]):focus:not([readonly]),
+        input[type=text]:not(.browser-default):focus:not([readonly]),
+        input[type=password]:not(.browser-default):focus:not([readonly]),
+        input[type=email]:not(.browser-default):focus:not([readonly]),
+        input[type=url]:not(.browser-default):focus:not([readonly]),
+        input[type=time]:not(.browser-default):focus:not([readonly]),
+        input[type=date]:not(.browser-default):focus:not([readonly]),
+        input[type=datetime]:not(.browser-default):focus:not([readonly]),
+        input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+        input[type=tel]:not(.browser-default):focus:not([readonly]),
+        input[type=number]:not(.browser-default):focus:not([readonly]),
+        input[type=search]:not(.browser-default):focus:not([readonly]),
+        textarea.materialize-textarea:focus:not([readonly]) {
+            border-bottom: 0px solid #26a69a;
+            box-shadow: 0 0px 0 0 #26a69a;
+        }
+        input:not([type]).valid,
+        input:not([type]):focus.valid,
+        input[type=text]:not(.browser-default).valid,
+        input[type=text]:not(.browser-default):focus.valid,
+        input[type=password]:not(.browser-default).valid,
+        input[type=password]:not(.browser-default):focus.valid,
+        input[type=email]:not(.browser-default).valid,
+        input[type=email]:not(.browser-default):focus.valid,
+        input[type=url]:not(.browser-default).valid,
+        input[type=url]:not(.browser-default):focus.valid,
+        input[type=time]:not(.browser-default).valid,
+        input[type=time]:not(.browser-default):focus.valid,
+        input[type=date]:not(.browser-default).valid,
+        input[type=date]:not(.browser-default):focus.valid,
+        input[type=datetime]:not(.browser-default).valid,
+        input[type=datetime]:not(.browser-default):focus.valid,
+        input[type=datetime-local]:not(.browser-default).valid,
+        input[type=datetime-local]:not(.browser-default):focus.valid,
+        input[type=tel]:not(.browser-default).valid,
+        input[type=tel]:not(.browser-default):focus.valid,
+        input[type=number]:not(.browser-default).valid,
+        input[type=number]:not(.browser-default):focus.valid,
+        input[type=search]:not(.browser-default).valid,
+        input[type=search]:not(.browser-default):focus.valid,
+        textarea.materialize-textarea.valid,
+        textarea.materialize-textarea:focus.valid {
+            border-bottom: 0px solid #26a69a;
+            box-shadow: 0 0px 0 0 #26a69a;
+        }
+        input:not([type]),
+        input[type=text]:not(.browser-default),
+        input[type=password]:not(.browser-default),
+        input[type=email]:not(.browser-default),
+        input[type=url]:not(.browser-default),
+        input[type=time]:not(.browser-default),
+        input[type=date]:not(.browser-default),
+        input[type=datetime]:not(.browser-default),
+        input[type=datetime-local]:not(.browser-default),
+        input[type=tel]:not(.browser-default),
+        input[type=number]:not(.browser-default),
+        input[type=search]:not(.browser-default),
+        textarea.materialize-textarea {
+            height: 2.8em;
+        }
+        &:first-child {
+            border-top-right-radius: .3em;
+            border-bottom-right-radius: .3em;
+            border-top-left-radius: .3em;
+            border-bottom-left-radius: .3em;
+            @media #{$medium-and-up} {
+                border-top-left-radius: .3em;
+                border-bottom-left-radius: .3em;
+                border-top-right-radius: 0em;
+                border-bottom-right-radius: 0em;
+            }
+            input {
+                //border-bottom: 1px solid #cecece;
+                @media only screen and (min-width: $medium-screen) {
+                    border-right: 1px solid #cecece !important;
+                    border-bottom: 0 solid !important;
+                }
+            }
+        }
+        &:nth-child(2) {
+            border-top-right-radius: .3em;
+            border-bottom-right-radius: .3em;
+            border-top-left-radius: .3em;
+            border-bottom-left-radius: .3em;
+            @media #{$medium-and-up} {
+                border-top-right-radius: .3em;
+                border-bottom-right-radius: .3em;
+                border-top-left-radius: 0em;
+                border-bottom-left-radius: 0em;
+            }
+        }
+        &:last-child {
+            &.col {
+                //padding:0 !important;
+                .btn {
+                    border-radius: .3em;
+                    height: 2.8rem;
+                    line-height: 2.8rem;
+                    background-image: linear-gradient(-90deg, #FF0050 8%, #FF3D6A 100%);
+                    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.50); //margin-top:10px;
+                    @media only screen and (min-width: $medium-screen) {
+                        margin-top:0;
+                    }
+                }
+            }
+        }
+        &.input-field-large {
+            input {
+                height: 60px;
+            }
+            a {
+                height: 60px !important;
+                line-height: 60px !important;
+                font-size: 1.4em;
+            }
+        }
+        &.input-field-medium {
+            input {
+                height: 50px;
+            }
+            a {
+                height: 50px !important;
+                line-height: 50px !important;
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+
+
+.material-icons.prefix.input-focus{
+	color: color('purple','base');
+}
+.material-icons.prefix.input-focus.active{
+	color: color('red','base');
+}
