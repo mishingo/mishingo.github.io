@@ -1,3 +1,0 @@
-# Miguel Ramos Portfolio
-
-
