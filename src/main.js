@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 
 Vue.use(resource, {
   resources,
-  endpoint: '/static/api'
+  endpoint: '/portfolio/static/api'
 })
 
 Vue.use(deviceQueries, {
