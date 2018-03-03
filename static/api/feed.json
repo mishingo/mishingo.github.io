@@ -1,15 +1,17 @@
 {
   "results": [{
-    "title": "consequat ut nulla",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/450744/mona-eendra.jpg",
+    "title": "Blockchain Development at ETH Denver",
+    "image": "/static/images/ethdenver.png",
     "published": "2017-07-28T18:31:01Z",
     "author": "Derrik Yerrington",
-    "id": "consequat-ut-nulla"
+    "id": "consequat-ut-nulla",
+    "description": "Took a flight out to Denver to participate at their Ethereum Hackathon and it was incredible. Endless Kombucha fueled my late night frustrations..."
   }, {
     "title": "curabitur gravida nisi",
     "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/450744/adam-krowitz.jpg",
     "published": "2017-06-12T10:01:51Z",
     "author": "Michelle Blackford",
-    "id": "curabitur-gravida-nisi"
+    "id": "curabitur-gravida-nisi",
+    "description": "Took a flight out to Denver to participate at their Ethereum Hackathon and it was incredible. Endless Kombucha fueled my late night frustrations..."
   }]
 }
