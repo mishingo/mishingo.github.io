@@ -7,18 +7,11 @@
     "id": "ethdenver",
     "description": "Took a flight out to Denver to participate at their Ethereum Hackathon and it was incredible. Endless Kombucha fueled my late night frustrations..."
   }, {
-    "title": "Template Legal a Legal Document Builder",
+    "title": "Building a Legal Document Builder in 2 months",
     "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/450744/adam-krowitz.jpg",
     "published": "2017-06-12T10:01:51Z",
-    "author": "Michelle Blackford",
-    "id": "curabitur-gravida-nisi",
-    "description": "Took a flight out to Denver to participate at their Ethereum Hackathon and it was incredible. Endless Kombucha fueled my late night frustrations..."
-  }, {
-    "title": "curabitur gravida nisi",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/450744/adam-krowitz.jpg",
-    "published": "2017-06-12T10:01:51Z",
-    "author": "Michelle Blackford",
-    "id": "curabitur-gravida-nisi",
-    "description": "Took a flight out to Denver to participate at their Ethereum Hackathon and it was incredible. Endless Kombucha fueled my late night frustrations..."
+    "author": "Miguel Ramos",
+    "id": "templatelegal",
+    "description": "We Built it fast with just me and a coworker"
   }]
 }
