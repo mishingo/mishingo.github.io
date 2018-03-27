@@ -7,11 +7,11 @@
     "id": "ethdenver",
     "description": "Took a flight out to Denver to participate at their Ethereum Hackathon and it was incredible. Endless Kombucha fueled my late night frustrations..."
   }, {
-    "title": "Building a Legal Document Builder in 2 months",
+    "title": "Building a Legal Document Builder",
     "image": "/static/images/tl.png",
     "published": "2017-06-12T10:01:51Z",
     "author": "Miguel Ramos",
     "id": "templatelegal",
-    "description": "We Built it fast with just me and a coworker"
+    "description": "It doesn't happen too often but sometimes we need some legal help. Using an online service helps cut down the cost of seeking help from an expensive attorney in cretain occasions."
   }]
 }
